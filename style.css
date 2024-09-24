@@ -33,8 +33,8 @@ body {
 
 /* adicionar uma cor de fundo suave ao passar o mouse sobre os links da navegação */
 .nav .nav-link:hover {
-    background-color: #ffeae6b6;
-    color: ##4B2C20;
+    background-color: #3B5F41;
+    color: #fff;
     transition: background-color 0.3s ease;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .navbar-brand {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(242, 240, 240, 0.515);
 }
 
 .navbar-toggler {
@@ -72,12 +72,12 @@ body {
 }
 
 #fale-conosco button:hover {
-    background-color: #ffeae6;
-    color: #4B2C20;
+    background-color: #3B5F41;
+    color: ##fff;
 }
 
 .nav-cardapio .nav-link:hover {
-    color: #4B2C20;
+    color: ##fff;
 }
 
 /*seção fale consoco*/
