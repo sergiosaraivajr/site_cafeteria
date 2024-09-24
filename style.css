@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-    background-color: #e15f41;
+    background-color: #4B2C20;
 }
 
 .nav-link,
@@ -21,7 +21,7 @@ body {
 
 #cabecalho .nav .nav-link.active {
     background-color: #fff;
-    color: #e15f41;
+    color: #4B2C20;
 }
 
 #cabecalho .nav .nav-link,
@@ -34,7 +34,7 @@ body {
 /* adicionar uma cor de fundo suave ao passar o mouse sobre os links da navegação */
 .nav .nav-link:hover {
     background-color: #ffeae6b6;
-    color: #e15f41;
+    color: ##4B2C20;
     transition: background-color 0.3s ease;
 }
 
@@ -57,27 +57,27 @@ body {
 
 #sobre-o-restaurante,
 #cardapio {
-    background-color: #ffeae6;
+    background-color: #E8D5B7;
 }
 
 .text-colored {
-    color: #e15f41;
+    color: #4B2C20;
 }
 
 .nav-cardapio .nav-link.active,
 #fale-conosco button {
-    background-color: #e15f41;
+    background-color: #4B2C20;
     color: #fff;
-    border-color: #e15f41;
+    border-color: #4B2C20;
 }
 
 #fale-conosco button:hover {
     background-color: #ffeae6;
-    color: #e15f41;
+    color: #4B2C20;
 }
 
 .nav-cardapio .nav-link:hover {
-    color: #e15f41;
+    color: #4B2C20;
 }
 
 /*seção fale consoco*/
