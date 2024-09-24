@@ -1,0 +1,113 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #e15f41;
+}
+
+.nav-link,
+.imgsobre,
+#cardevento {
+    transition: transform 0.6s ease; /* Transição suave */
+}
+
+.nav-link:hover,
+.imgsobre:hover,
+#cardevento:hover {
+    transform: scale(1.1); /* Expande o cartão em 10% */
+}
+
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #e15f41;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+/* adicionar uma cor de fundo suave ao passar o mouse sobre os links da navegação */
+.nav .nav-link:hover {
+    background-color: #ffeae6b6;
+    color: #e15f41;
+    transition: background-color 0.3s ease;
+}
+
+/*garantir que o menu fique bem distribuído em dispositivos menores*/
+.navbar-collapse {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: pacifico, cursive;
+}
+
+#sobre-o-restaurante,
+#cardapio {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #e15f41;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #e15f41;
+    color: #fff;
+    border-color: #e15f41;
+}
+
+#fale-conosco button:hover {
+    background-color: #ffeae6;
+    color: #e15f41;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #e15f41;
+}
+
+/*seção fale consoco*/
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon input {
+    padding-left: 30px; /* Adiciona espaço para o ícone */
+}
+
+.input-with-icon i {
+    position: absolute;
+    left: 10px; /* Coloca o ícone dentro do input */
+    top: 50%;
+    transform: translateY(10%);
+}
+
+
+@media (max-width: 767) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
